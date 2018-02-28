@@ -159,7 +159,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 0 20px;
 
 
   @include mobile {
@@ -194,14 +194,13 @@ img {
   }
 }
 
-.site-name {
+.site-name {	    
+  font-size: 3em;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   margin: 0;
   color: $darkGray;
   cursor: pointer;
   font-family: $luckiestGuy;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
 }
 
 .site-description {
