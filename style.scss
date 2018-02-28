@@ -19,9 +19,6 @@ html {
 }
 
 body {
-	background: url(/images/pattern.svg);
-  background-color: $mediumTeal;
-  background-blend-mode: soft-light;
   font: 18px/1.4 $roboto;
   color: $darkGray;
 }
@@ -154,12 +151,16 @@ img {
 //
 
 .wrapper-masthead {
+  background: url(/images/pattern.svg);
+  background-color: $mediumTeal;
+  background-blend-mode: soft-light;
+  border-bottom: 2px solid $darkGray;
   margin-bottom: 50px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+
 
   @include mobile {
     text-align: center;
