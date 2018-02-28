@@ -152,6 +152,7 @@ img {
 
 .wrapper-masthead {
   position:fixed;
+  top:0;
   width:100%;
   background: url(/images/pattern.svg);
   background-color: $mediumTeal;
@@ -243,7 +244,9 @@ nav {
 }
 
 //
-// .main
+ .main {
+	margin-top:120px; 
+}
 //
 
 .posts > .post {
