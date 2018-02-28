@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import url(href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Bangers|Roboto" rel="stylesheet");
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -19,9 +20,9 @@ html {
 
 body {
 	background: url(/images/pattern.svg);
-  background-color: #009688;
+  background-color: $mediumTeal;
   background-blend-mode: soft-light;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $roboto;
   color: $darkGray;
 }
 
@@ -33,8 +34,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $luckiestGuy;
+  color: $darkGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -71,7 +72,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $pinkRed;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
