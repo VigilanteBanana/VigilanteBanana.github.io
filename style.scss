@@ -151,7 +151,7 @@ img {
 //
 
 .wrapper-masthead {
-  height:50px;
+  height:52px;
   position:fixed;
   top:0;
   width:100%;
@@ -221,8 +221,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $bangers;
-  font-size: 18px;
+
 
   @include mobile {
     float: none;
@@ -232,11 +231,12 @@ nav {
   }
 
   a {
+    font-family: $bangers;
+    font-size: 18px;
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+  
 
     @include mobile {
       margin: 0 10px;
