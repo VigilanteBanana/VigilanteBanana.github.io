@@ -16,6 +16,8 @@
 
 html {
   font-size: 100%;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 body {
