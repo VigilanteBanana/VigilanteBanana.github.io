@@ -287,6 +287,9 @@ nav {
   background-blend-mode: soft-light;
   border-top: 2px solid $darkGray;
   margin-top: 50px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 footer {
