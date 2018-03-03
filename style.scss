@@ -71,6 +71,7 @@ p {
 }
 
 a {
+  font-family: $bangers;
   color: $pinkRed;
   text-decoration: none;
 	cursor: pointer;
@@ -233,7 +234,7 @@ nav {
   }
 
   a {
-    font-family: $luckiestGuy;
+    font-family: $bangers;
     font-size: 18px;
     margin-left: 20px;
     color: $darkGray;
