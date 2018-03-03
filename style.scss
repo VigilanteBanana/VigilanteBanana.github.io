@@ -165,7 +165,7 @@ img {
 
 .masthead {
   padding: 0 15px;
-  margin-top:-11px;
+  margin-top:-10px;
 
 
   @include mobile {
@@ -261,6 +261,7 @@ nav {
 }
 
 .post {
+	background-color:$white;
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
