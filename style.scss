@@ -23,6 +23,9 @@ html {
 body {
   font: 18px/1.4 $roboto;
   color: $darkGray;
+  background-image: url(/images/pattern.svg);
+  background-color: $mediumTeal;
+  background-blend-mode: overlay;
 }
 
 .container {
