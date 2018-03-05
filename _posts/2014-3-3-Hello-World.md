@@ -3,8 +3,5 @@ layout: post
 title: You're up and running!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+<p data-height="265" data-theme-id="0" data-slug-hash="xYmKZG" data-default-tab="html,result" data-user="katethedev" data-embed-version="2" data-pen-title="Hidden Div jQuery" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/katethedev/pen/xYmKZG/">Hidden Div jQuery</a> by Kate Shaw (<a href="https://codepen.io/katethedev">@katethedev</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
