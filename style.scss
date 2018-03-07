@@ -376,12 +376,10 @@ button.navbar-toggle:hover {
   position: fixed;
   width: 100%;
   bottom: 0;
+  height:25px;
 }
 
 footer {
-  position:fixed;
-  width:100%;
-  bottom:0;
   padding: 20px 0;
   text-align: center;
 }
@@ -389,7 +387,7 @@ footer {
 p.copy {
    font-family:$bangers;
    color:$darkGray;
-   font-size: 1.5em;
+   font-size: 1.1em;
    text-align: right;
 }
 
