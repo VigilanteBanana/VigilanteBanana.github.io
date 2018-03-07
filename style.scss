@@ -237,13 +237,12 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-
+    &:hover, &:active {
+	color:$white;
+  }
     @include mobile {
       margin: 0 10px;
 
-    }
-   a:hover {
-	 color:$white;   
     }
   }
 }
