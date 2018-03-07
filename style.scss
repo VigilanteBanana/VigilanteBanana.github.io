@@ -224,97 +224,106 @@ img {
 
 .navbar-toggle {
   padding: 9px 0px;
-	
-	.navbar-toggle .icon-bar {
-    		background-color: #ff5252;
-	}
+  .icon-bar {
+    background-color: $pinkRed;
+  }
 }
 
 button.navbar-toggle:hover {
-    box-shadow: none;
-    -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
-.nav>li>a {
+
+.nav > li {
+  > a {
     text-decoration: none;
-    color: $darkGray;
+    color: #333333;
     font-family: $bangers;
     font-size: 1.4em;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.nav>li>a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    bottom: 5px;
-    left: 0;
-    background: $white;
-    visibility: hidden;
-    border-radius: 5px;
-    transform: scaleX(0);
-    transition: .25s linear;
-}
-
-.nav>li>a:hover:before,
-.nav>li>a:focus:before,
-.nav>li.active a:before {
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 5px;
+      left: 0;
+      background: $white;
+      visibility: hidden;
+      border-radius: 5px;
+      transform: scaleX(0);
+      transition: .25s linear;
+    }
+    &:hover:before, &:focus:before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
+  }
+  &.active a:before {
     visibility: visible;
-    transform: scaleX(1)
+    transform: scaleX(1);
+  }
 }
 
 .nav-underline a:before {
-    background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 
-.nav>li>a:focus,
-.nav>li>a:hover {
-    background: 0;
-}
-
-.nav>li.active a,
-.nav>li>a:hover {
+.nav > li {
+  > a {
+    &:focus, &:hover {
+      background: 0;
+    }
+  }
+  &.active a, > a:hover {
     color: $white;
+  }
 }
 
 @keyframes hover-v {
-    0% {
-        transform: scaleX(0);
-        height: 5px;
-    }
-    45% {
-        transform: scaleX(1.05);
-        height: 5px;
-    }
-    55% {
-        height: 5px;
-    }
-    100% {
-        transform: scaleX(1.05);
-        height: 3.8rem;
-    }
+  0% {
+    transform: scaleX(0);
+    height: 5px;
+  }
+
+  45% {
+    transform: scaleX(1.05);
+    height: 5px;
+  }
+
+  55% {
+    height: 5px;
+  }
+
+  100% {
+    transform: scaleX(1.05);
+    height: 3.8rem;
+  }
 }
+
 
 @keyframes no-hover-v {
-    0% {
-        transform: scaleX(1.05);
-        height: 3.8rem;
-    }
-    45% {
-        height: 5px;
-    }
-    55% {
-        transform: scaleX(1.05);
-        height: 5px;
-        opacity: 1;
-    }
-    100% {
-        transform: scaleX(0);
-        height: 5px;
-        opacity: .02;
-    }
-}
+  0% {
+    transform: scaleX(1.05);
+    height: 3.8rem;
+  }
 
+  45% {
+    height: 5px;
+  }
+
+  55% {
+    transform: scaleX(1.05);
+    height: 5px;
+    opacity: 1;
+  }
+
+  100% {
+    transform: scaleX(0);
+    height: 5px;
+    opacity: .02;
+  }
+}
 
 
 
