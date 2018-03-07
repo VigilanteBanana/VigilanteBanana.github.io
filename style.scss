@@ -279,7 +279,10 @@ button.navbar-toggle:hover {
     color: $white;
   }
 }
-
+navbar-collapse .collapse .in {
+	background-color:$pinkRed;	
+}	
+	
 @keyframes hover-v {
   0% {
     transform: scaleX(0);
