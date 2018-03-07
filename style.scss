@@ -199,9 +199,11 @@ img {
   }
 }
 
-.site-name {
-  font-size: 2.25em;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+.navbar-brand {
+  font-size: 3em;
+   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   margin: 0;
   color: $darkGray;
   cursor: pointer;
@@ -222,9 +224,10 @@ img {
 
 .navbar-toggle {
   padding: 9px 0px;
-}
-.navbar-toggle .icon-bar {
-    background-color: #ff5252;
+	
+	.navbar-toggle .icon-bar {
+    		background-color: #ff5252;
+	}
 }
 
 button.navbar-toggle:hover {
@@ -233,8 +236,8 @@ button.navbar-toggle:hover {
 }
 .nav>li>a {
     text-decoration: none;
-    color: #3d3d3d;
-    font-family: 'Bangers', cursive;
+    color: $darkGray;
+    font-family: $bangers;
     font-size: 1.4em;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -246,7 +249,7 @@ button.navbar-toggle:hover {
     height: 3px;
     bottom: 5px;
     left: 0;
-    background: #f2f2f2;
+    background: $white;
     visibility: hidden;
     border-radius: 5px;
     transform: scaleX(0);
@@ -271,7 +274,7 @@ button.navbar-toggle:hover {
 
 .nav>li.active a,
 .nav>li>a:hover {
-    color: #f2f2f2;
+    color: $white;
 }
 
 @keyframes hover-v {
