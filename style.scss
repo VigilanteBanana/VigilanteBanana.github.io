@@ -369,8 +369,7 @@ button.navbar-toggle:hover {
 }
 
 .wrapper-footer {
-  background: url(/images/pattern.svg);
-  background-color: $mediumTeal;
+  background-color: $pinkRed;
   background-blend-mode: soft-light;
   border-top: 2px solid $darkGray;
   margin-top: 50px;
@@ -384,9 +383,9 @@ footer {
   text-align: center;
 }
 
-.copy {
-	font-family:$bangers;
-	color:$darkGray;
+p.copy {
+   font-family:$bangers;
+   color:$darkGray;
 }
 
 
