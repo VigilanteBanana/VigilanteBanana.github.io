@@ -7,4 +7,4 @@ title: Hidden Div jQuery
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 
-This is a basic div with a button that when clicked pops out a hidden div using jQuery. Click on the button again or anywhere outside of the hidden div to toggle it back in hiding.
+This is a basic box with a button that when clicked pops out a hidden div using jQuery. Click on the button again or anywhere outside of the hidden div to toggle it back in hiding. To see it in action and get the code click "Run Pen."
