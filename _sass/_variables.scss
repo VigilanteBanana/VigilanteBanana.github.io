@@ -29,3 +29,8 @@ $roboto: Roboto, sans-serif;
     @content;
   }
 }
+@mixin mobile-small {
+  @media screen and (max-width:300px) {
+    @content;
+  }
+}
