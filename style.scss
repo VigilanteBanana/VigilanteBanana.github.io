@@ -210,8 +210,11 @@ img {
   font-family: $luckiestGuy;
 	
      @include mobile {
-    	font-size: 2.0em
+    	font-size: 2.0em;
   }
+    @include mobile-small {
+	font-size:1.7em;    
+   }
 }
 
 .site-description {
