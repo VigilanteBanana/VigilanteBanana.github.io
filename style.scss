@@ -346,8 +346,12 @@ button.navbar-toggle:hover {
 }
 .posts > .post {
   border-bottom: 1px solid $lightGray;
-  margin:30px;
+  margin:30px auto;
   flex-basis:45%;
+	
+     @include mobile {
+    	flex-basis:100%;
+  }
 }
 
 .posts > .post:last-child {
