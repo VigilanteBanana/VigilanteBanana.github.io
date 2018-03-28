@@ -410,7 +410,25 @@ p.copy {
    text-align: right;
    margin-top:-20px;
 }
-
+.about-list {
+  list-style-type: none;
+  padding: 5px 15px;
+  margin-top: -40px;
+  text-align: left;
+  li {
+    display: inline-block;
+    a {
+      font-family:$bangers;
+      color:$darkGray;
+      font-size: 1.1em;
+      padding-right: 10px;
+      text-decoration: none;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
 
 
 
